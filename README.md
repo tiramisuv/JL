@@ -20,7 +20,6 @@ answer(4) returns 2: 4 -> 2 -> 1
 answer(15) returns 5: 15 -> 16 -> 8 -> 4 -> 2 -> 1
 
 Test cases
-==========
 
 Inputs:
     (string) n = "4"
@@ -40,6 +39,7 @@ IDEA：
             
             
 3.class Pixel{
+
     - unsigned char r, g, b; // r:red, g: green, b:blue; max = 256
     
     - "+": (a+b)/2           // 注意a+b 可能越界 
@@ -61,6 +61,7 @@ IDEA：
                            - pixel blend(pixel b, int n) =blend(pixel a, piexl b,int n)
                            
 }
+
 
 
 4.Dynamic Programming
