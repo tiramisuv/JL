@@ -34,13 +34,12 @@ Output:
     
     
 IDEA：
-1. Class BigInt  with subclass  {operations a. +1 b. -1 c./2}
-2. Algrithm %4 = 3 => +1
+ 1). Class BigInt  with subclass  {operations a. +1 b. -1 c./2}
+ 2). Algrithm %4 = 3 => +1
             %4 = 1 => -1
             
             
-            
-3. class Pixel{
+3.class Pixel{
     - unsigned char r, g, b; // r:red, g: green, b:blue; max = 256
     - "+": (a+b)/2           // 注意a+b 可能越界 
     - "-": |a-b|             
@@ -55,7 +54,7 @@ IDEA：
 }
 
 
-4.  Dynamic Programming
+4.Dynamic Programming
 https://www.zhihu.com/question/23995189
 
 
