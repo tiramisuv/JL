@@ -41,16 +41,25 @@ IDEA：
             
 3.class Pixel{
     - unsigned char r, g, b; // r:red, g: green, b:blue; max = 256
+    
     - "+": (a+b)/2           // 注意a+b 可能越界 
-    - "-": |a-b|             
+    
+    - "-": |a-b|   
+    
     - "=";
+    
     - "<<" : output "pixelred = r, pixelgreen = b, pixelblue = b. "
+    
     － construct -(r,g,b)
+    
                 - (0,0,0)    //defalt
+                
                 - (pixel)
+                
     - function pixel blend - pixel blend(pixel a, piexl b,int n) //(n<=100)
+    
                            - pixel blend(pixel b, int n) =blend(pixel a, piexl b,int n)
-                           －
+                           
 }
 
 
